@@ -1,0 +1,85 @@
+* { box-sizing: border-box; }
+body {
+  font-family: "Roboto", sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  background: white;
+  padding: 3rem 2rem 3rem;
+  border-radius: 30px;
+  border: 3px solid #cafc03;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 450px;
+}
+.container label {
+  color: #1e2f69;
+  font-weight: bold;
+}
+.container a {
+  text-align: center;
+  padding: 15px 15px 1px;
+  text-decoration: none;
+  color: #1e2f69;
+  font-weight: bold;
+}
+.container a:hover {
+  color: #abd503;
+}
+.container p{
+  font-weight: bold;
+  padding: 10px 15px 5px;
+  color: #525b6a;
+  text-align: center;            
+  margin: 1rem auto;          
+  width: 90%;                 
+  max-width: 400px;           
+  text-align: center;         
+  line-height: 1.5;    
+}
+.container strong {
+  color: #9dc403;
+}
+h1 {
+  color: #1e2f69;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+label {
+  display: block;
+  margin-bottom: 1rem;
+}
+input, select {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.3rem;
+}
+button {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  background: #cafc03;
+  border: none;
+  color: #1e2f69;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 120px;
+  cursor: pointer;
+}
+button:hover {
+  background: #abd503;
+}
+
+.password {
+  border-radius: 20px;
+  border: 3px solid #cafc03;
+}
+
+.username {
+  border-radius: 20px;
+  border: 3px solid #cafc03;
+}
