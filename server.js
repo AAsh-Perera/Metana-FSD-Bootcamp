@@ -87,6 +87,8 @@ app.post('/logout', (req, res) => {
 
 module.exports = app;  // Export the app for testing
 
+app.get('/health', (_req, res) => res.send('ok'));
+
 // Only start the server if this file is run directly (not imported)
 if (require.main === module) {
   app.listen(PORT, () => {

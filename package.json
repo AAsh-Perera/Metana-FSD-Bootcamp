@@ -5,9 +5,10 @@
   "main": "server.js",
 "scripts": {
   "start": "node server.js",
+  "build": "echo \"no build step\"",
   "test": "NODE_ENV=test jest --runInBand --detectOpenHandles",
   "test:watch": "jest --watchAll"
- },
+},
   "keywords": [],
   "author": "",
   "license": "MIT",
